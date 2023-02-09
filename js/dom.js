@@ -24,3 +24,10 @@ for(const section of sections){
     section.style.backgroundColor = 'lightgray';
 
 }
+
+const placesCOntainer = document.getElementById('places-container');
+// placesCOntainer.style.backgroundColor = 'yellow'
+
+const placesContainer = document.getElementById('places-container');
+placesCOntainer.classList.add('text-center');
+placesContainer.classList.remove('large-text')
